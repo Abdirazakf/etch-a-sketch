@@ -11,15 +11,32 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 60px;
-    border: 3px solid red;
+    border: 3px solid #b7181d;
+    border-radius: 10px;
 }
 
 .item {
     width: 25px;
     height: 25px;
     margin: 0px;
-    border: 3px solid red;
+    background-color: #cacbcd;
+    border: 3px solid #cacbcd;
+}
+
+.item-1 {
+    border-top-left-radius: 5px;
+}
+
+.item-16 {
+    border-top-right-radius: 5px;
+}
+
+.item-241 {
+    border-bottom-left-radius: 5px;
+}
+
+.item-256 {
+    border-bottom-right-radius: 5px;
 }
 
 .header {
@@ -48,8 +65,8 @@ button {
     border: none;
 }
 
-.title,
-a:hover {
+.title:hover,
+.github-link:hover {
     color: white;
 }
 
@@ -57,19 +74,38 @@ button:hover {
     background-color: rgb(189, 95, 95);
 }
 
-.github-link {
+.github-button {
     margin-left: auto;
 }
 
 .board {
     width: 900px;
-    height: 800px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: -150px;
     margin-top: 30px;
-    border: 3px solid red;
+    border: 3px solid #b7181d;
+    border-radius: 20px;
+    background-color: #b7181d;
+}
+
+.board-title {
+    color: #d0904f;
+    padding: 20px;
+    letter-spacing:0.02em;
+    font-weight: 550;
+}
+
+.board-title-middle {
+    font-size: 24px;
+    font-style: italic;
+}
+
+sup {
+    font-size: 16px;
 }
 
 .knobs {
@@ -77,17 +113,24 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     gap: 300px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 100%;
+    padding: 10px;
 }
 .knob-1,
 .knob-2 {
     width: 80px;
     height: 80px;
     border-radius: 200px;
+    background-color: white;
     border: 3px solid red;
 }
 
 .footer {
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    font-family: Inter;
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
 }
