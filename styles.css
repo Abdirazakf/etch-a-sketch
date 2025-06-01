@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container {
+    width: 496px;
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    border: 3px solid red;
+}
+
+.item {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    border: 3px solid red;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    /* border: 3px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.title,
+.github-link {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+button {
+    width: 200px;
+    background-color: white;
+    border: none;
+}
+
+.title,
+a:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(189, 95, 95);
+}
+
+.github-link {
+    margin-left: auto;
+}
+
+.board {
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border: 3px solid red;
+}
+
+.knobs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+    border: 3px solid red;
+    width: 100%;
+}
+.knob-1,
+.knob-2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    border: 3px solid red;
+}
+
+.footer {
+    border: 3px solid red;
+}
